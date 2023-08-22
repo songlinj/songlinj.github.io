@@ -17,11 +17,20 @@ permalink: /cv/
 .cv-item .right {
     float: right;
 }
+.intro-box div {
+    display: inline-block;
+}
 </style>
 
-<p>{{ site.description }}</p>
-<span class=""username">{{ site.email }}</span>
+<div class="intro-box">
+<div style="width: 65%">
+{{ site.description }}<br>
+Email: {{ site.email }}
+</div>
+<div style="width: 30%">
 {%- include social.html -%}
+</div>
+</div>
 
 <h2>Education</h2>
 

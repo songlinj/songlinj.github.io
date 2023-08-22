@@ -4,8 +4,8 @@
   degree: Ph.D. in Computer Science
   depart: Department of Computer Science
   details:
-  - Advised by <a href="https://tiarkrompf.github.io/">Prof. Tiark Rompf</a> on programming languages and compilers
-  - Working on multi-stage programming and type systems
+  - Advised by <a href="https://tiarkrompf.github.io/">Prof. Tiark Rompf</a> on programming languages and compilers;
+  - Currently working on multi-stage programming and type systems;
 
 
 - school: Shanghai Jiao Tong University (SJTU)
@@ -14,3 +14,5 @@
   degree: B.Eng. in Information Security
   depart: School of Electronic Information and Electrical Engineering
   details:
+  - "Core Courses: Linear Algebra (94), Discrete Mathematics (97), Computer Organization and Architecture (95), Compiler Principles (91), Computer Communication and Network (92.5);"
+  - Experiences in web development, parallel programming, and program analysis;
