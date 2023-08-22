@@ -1,0 +1,25 @@
+- title: Graph IRs for Impure Higher-Order Languages
+  author: Oliver Bracevac, Guannan Wei, <u>Songlin Jia</u>, Supun Abeysinghe, Yuxuan Jiang, Yuyan Bao, and Tiark Rompf
+  booktitle: OOPSLA 2023 (to appear)
+  year: 2023
+
+- title: Compiling Parallel Symbolic Execution with Continuations
+  author: Guannan Wei, <u>Songlin Jia</u>, Ruiqi Gao, Haotian Deng, Shangyin Tan, Oliver Bračevac, and Tiark Rompf
+  booktitle: IEEE/ACM 45th International Conference on Software Engineering (ICSE)
+  pages: 1316--1328
+  year: 2023
+  organization: IEEE
+
+- title: Annotating, Tracking, and Protecting Cryptographic Secrets with CryptoMPK
+  author: Xuancheng Jin, Xuangan Xiao, <u>Songlin Jia</u>, Wang Gao, Dawu Gu, Hang Zhang, Siqi Ma, Zhiyun Qian, and Juanru Li
+  booktitle: IEEE Symposium on Security and Privacy (SP)
+  pages: 650--665
+  year: 2022
+  organization: IEEE
+
+- title: Accelerating SM2 Digital Signature Algorithm Using Modern Processor Features
+  author: Long Mai, Yuan Yan, <u>Songlin Jia</u>, Shuran Wang, Jianqiang Wang, Juanru Li, Siqi Ma, and Dawu Gu
+  booktitle: International Conference on Information and Communications Security
+  pages: 430--446
+  year: 2019
+  organization: Springer International Publishing Cham

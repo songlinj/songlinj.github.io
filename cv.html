@@ -5,34 +5,45 @@ permalink: /cv/
 ---
 
 <style>
+.site-nav {
+    display: none;
+}
+.site-footer {
+    display: none;
+}
 .cv-item span {
     display: inline-block;
-}
-.cv-item .small {
-    font-size: small;
 }
 .cv-item .right {
     float: right;
 }
-.cv-item .bold {
-    font-weight: bold;
-}
-.cv-item .italic {
-    font-style: italic;
-}
 </style>
+
+<p>{{ site.description }}</p>
+<span class=""username">{{ site.email }}</span>
+{%- include social.html -%}
 
 <h2>Education</h2>
 
 {% for item in site.data.education %}
 <div class="cv-item">
-<span class="bold">{{ item.school }}</span><span class="small">{{ item.location }}</span>
-<span class="right italic">{{ item.timespan }}</span><br>
-<span>{{ item.depart }}</span> <span class="right">{{ item.degree }}</span>
+<span><b>{{ item.school }}</b></span><span>&nbsp;<small>{{ item.location }}</small></span>
+<span class="right"><em>{{ item.timespan }}</em></span><br>
+<span><small>{{ item.depart }}</small></span><span class="right"><small>{{ item.degree }}</small></span>
 </div>
 <ul>
 {% for ditem in item.details %}
-<li>{{ ditem | markdownify }}</li>
+<li>{{ ditem }}</li>
 {% endfor %}
 </ul>
+{% endfor %}
+
+<h2>Publication</h2>
+
+{% for item in site.data.publication %}
+<p>
+<b>{{ item.title }}</b><br>
+<em>{{ item.author }}</em><br>
+in {{ item.booktitle }}, {{ item.year }}
+</p>
 {% endfor %}
