@@ -1,0 +1,85 @@
+---
+layout: default
+---
+
+<style>
+.site-footer, .site-nav {
+  display: none;
+}
+.cv-item .right {
+  float: right;
+}
+.intro-box div, .cv-item span {
+  display: inline-block;
+  vertical-align: top;
+}
+.cv-item .small {
+  font-size: small;
+  line-height: 1.2;
+}
+ul {
+  margin-left: 20px;
+  list-style-type: circle;
+}
+table {
+  border: none;
+  color: black;
+}
+table td, table th {
+  border: none;
+  padding: 1px;
+}
+table tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0);
+}
+table td:first-child {
+  font-weight: bold;
+}
+h2 {
+  border-bottom: 1px solid black;
+}
+</style>
+
+<div class="intro-box">
+<div style="width: 68%;">
+{{ site.description }}<br>
+Email: {{ site.email }}
+</div>
+<div style="width: 30%;">
+{%- include social.html -%}
+</div>
+</div>
+
+<h2>Education</h2>
+
+{% for item in site.data.education %}
+<div class="cv-item">
+<span><b>{{ item.school }}</b></span>&nbsp;<span><small>{{ item.location }}</small></span>
+<span class="right"><em>{{ item.timespan }}</em></span><br>
+<span class="small">{{ item.depart }}</span><span class="right small">{{ item.degree }}</span>
+</div>
+<ul>
+{% for ditem in item.details %}
+<li>{{ ditem }}</li>
+{% endfor %}
+</ul>
+{% endfor %}
+
+{% include publication.html %}
+
+<h2>Experience</h2>
+
+{% for item in site.data.experience %}
+<div class="cv-item">
+<span><b>{{ item.organization }}</b></span>&nbsp;<span><small>{{ item.location }}</small></span>
+<span class="right"><em>{{ item.timespan }}</em></span><br>
+<span class="small">{{ item.position }}</span>
+</div>
+<ul>
+{% for ditem in item.details %}
+<li>{{ ditem }}</li>
+{% endfor %}
+</ul>
+{% endfor %}
+
+{{ content }}

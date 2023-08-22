@@ -11,12 +11,4 @@ In 2022, Songlin is a student volunteer in PLDI'22. He is a teaching assistant f
 
 Songlin got his bachelor's degree at Shanghai Jiao Tong University, where he used to work on scientific computing and program analysis.
 
-## Publication
-
-{% for item in site.data.publication %}
-<p>
-<b>{{ item.title }}</b><br>
-<small><em>{{ item.author }}</em></small><br>
-in {{ item.booktitle }}, {{ item.year }}
-</p>
-{% endfor %}
+{% include publication.html %}

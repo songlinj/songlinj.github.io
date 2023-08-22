@@ -1,0 +1,9 @@
+<h2>Publication</h2>
+
+{% for item in site.data.publication %}
+<p>
+<b>{{ item.title }}</b><br>
+<small><em>{{ item.author }}</em></small><br>
+in {{ item.booktitle }}, {{ item.year }}
+</p>
+{% endfor %}
