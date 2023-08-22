@@ -1,0 +1,22 @@
+- organization: Purdue University
+  location: West Lafayette, IN, United States
+  position: Graduate Teaching Assistant
+  timespan: Aug 2022 - present
+  details:
+  - CS565, Programming Languages, 2022 Fall;
+  - CS502, Compiling and Programming Systems, 2023 Spring and Fall;
+
+- organization: CodeWhisperer, Amazon Web Services
+  location: New York City, NY, United States
+  position: Applied Scientist Intern
+  timespan: May - Aug 2023
+  details:
+  - Working on LLM (large language model) for code;
+
+- organization: Network & Information Management Organization, SJTU
+  location: Shanghai, China
+  position: Web Development Lead
+  timespan: Sep 2017 - Jun 2018
+  details:
+  - Rebuilt the Service & Management System used in SJTU and optimized its interaction guidance, information layout, and data fetching;
+  - Leading the 4-per development team, implemented the back-end (Django) and contributed to the front-end (Vue.js);

@@ -56,3 +56,18 @@ Email: {{ site.email }}
 in {{ item.booktitle }}, {{ item.year }}
 </p>
 {% endfor %}
+
+<h2>Experience</h2>
+
+{% for item in site.data.experience %}
+<div class="cv-item">
+<span><b>{{ item.organization }}</b></span><span>&nbsp;<small>{{ item.location }}</small></span>
+<span class="right"><em>{{ item.timespan }}</em></span><br>
+<span><small>{{ item.position }}</small></span>
+</div>
+<ul>
+{% for ditem in item.details %}
+<li>{{ ditem }}</li>
+{% endfor %}
+</ul>
+{% endfor %}
