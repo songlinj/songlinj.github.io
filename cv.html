@@ -6,31 +6,43 @@ permalink: /cv/
 
 <style>
 .site-footer, .site-nav {
-    display: none;
+  display: none;
 }
 .cv-item .right {
-    float: right;
+  float: right;
 }
 .intro-box div, .cv-item span {
-    display: inline-block;
-    vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
+}
+.cv-item .small {
+  font-size: small;
+  line-height: 1.2;
+}
+ul {
+  margin-left: 20px;
+  list-style-type: circle;
 }
 .skill-table {
-    border: none;
-    color: black;
+  border: none;
+  color: black;
 }
-.skill-table td {
-    border: none;
-    padding: 1px;
-    vertical-align: top;
+.skill-table td, .skill-table th {
+  border: none;
+  padding: 1px;
+  vertical-align: top;
+  background-color: rgba(0, 0, 0, 0);
 }
 .skill-table tr:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+h2 {
+  border-bottom: 1px solid black;
 }
 </style>
 
 <div class="intro-box">
-<div style="width: 65%;">
+<div style="width: 68%;">
 {{ site.description }}<br>
 Email: {{ site.email }}
 </div>
@@ -45,7 +57,7 @@ Email: {{ site.email }}
 <div class="cv-item">
 <span><b>{{ item.school }}</b></span>&nbsp;<span><small>{{ item.location }}</small></span>
 <span class="right"><em>{{ item.timespan }}</em></span><br>
-<span><small>{{ item.depart }}</small></span><span class="right"><small>{{ item.degree }}</small></span>
+<span class="small">{{ item.depart }}</span><span class="right small">{{ item.degree }}</span>
 </div>
 <ul>
 {% for ditem in item.details %}
@@ -70,7 +82,7 @@ in {{ item.booktitle }}, {{ item.year }}
 <div class="cv-item">
 <span><b>{{ item.organization }}</b></span>&nbsp;<span><small>{{ item.location }}</small></span>
 <span class="right"><em>{{ item.timespan }}</em></span><br>
-<span><small>{{ item.position }}</small></span>
+<span class="small">{{ item.position }}</span>
 </div>
 <ul>
 {% for ditem in item.details %}
@@ -93,11 +105,11 @@ in {{ item.booktitle }}, {{ item.year }}
 
 <table class="skill-table">
 <tbody>
-<tr><td rowspan="3"><b>Language Proficiency</b></td><td>TOEFL 105 (Reading 27 Listening 28 Speaking 23 Writing 27),</td></tr>
-<tr>                                                <td>GRE General 326 (Verbal 157 Quantitative 169 AW 3.5),</td></tr>
-<tr>                                                <td>Purdue Oral English Proficiency Test 50 (Certified for TA);</td></tr>
-<tr><td rowspan="2"><b>Computer Skills</b></td><td>C++/C, Python, Scala, Coq, Haskell, StandardML, Racket,</td></tr>
-<tr>                                           <td>HTML/CSS, JavaScript, bash, LaTeX;</td></tr>
-<tr><td><b>Interests</b></td><td>Violin, Photography, Psychology;</td></tr>
+<tr><th rowspan="3">Language Proficiency</th><td>TOEFL 105 (Reading 27 Listening 28 Speaking 23 Writing 27),</td></tr>
+<tr>                                         <td>GRE General 326 (Verbal 157 Quantitative 169 AW 3.5),</td></tr>
+<tr>                                         <td>Purdue Oral English Proficiency Test 50 (Certified for TA);</td></tr>
+<tr><th rowspan="2">Computer Skills</th><td>C++/C, Python, Scala, Coq, Haskell, StandardML, Racket,</td></tr>
+<tr>                                    <td>HTML/CSS, JavaScript, bash, LaTeX;</td></tr>
+<tr><th>Interests</th><td>Violin, Photography, Psychology;</td></tr>
 </tbody>
 </table>
