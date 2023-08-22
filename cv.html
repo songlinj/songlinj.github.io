@@ -1,0 +1,38 @@
+---
+layout: default
+title: CV
+permalink: /cv/
+---
+
+<style>
+.cv-item span {
+    display: inline-block;
+}
+.cv-item .small {
+    font-size: small;
+}
+.cv-item .right {
+    float: right;
+}
+.cv-item .bold {
+    font-weight: bold;
+}
+.cv-item .italic {
+    font-style: italic;
+}
+</style>
+
+<h2>Education</h2>
+
+{% for item in site.data.education %}
+<div class="cv-item">
+<span class="bold">{{ item.school }}</span><span class="small">{{ item.location }}</span>
+<span class="right italic">{{ item.timespan }}</span><br>
+<span>{{ item.depart }}</span> <span class="right">{{ item.degree }}</span>
+</div>
+<ul>
+{% for ditem in item.details %}
+<li>{{ ditem | markdownify }}</li>
+{% endfor %}
+</ul>
+{% endfor %}
