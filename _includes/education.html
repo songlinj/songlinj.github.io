@@ -1,0 +1,14 @@
+<h2>Education</h2>
+
+{% for item in site.data.education %}
+<div class="cv-item">
+<span><b>{{ item.school }}</b></span>&nbsp;<span><small>{{ item.location }}</small></span>
+<span class="right"><em>{{ item.timespan }}</em></span><br>
+<span class="small">{{ item.depart }}</span><span class="right small">{{ item.degree }}</span>
+</div>
+<ul>
+{% for ditem in item.details %}
+<li>{{ ditem }}</li>
+{% endfor %}
+</ul>
+{% endfor %}

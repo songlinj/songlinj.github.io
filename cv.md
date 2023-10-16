@@ -4,6 +4,22 @@ title: CV
 permalink: /cv/
 ---
 
+<div class="intro-box">
+  <div style="width: 68%;">
+    {{ site.description }}<br>
+    Email: {{ site.email }}
+  </div>
+  <div style="width: 30%;">
+    {%- include social.html -%}
+  </div>
+</div>
+
+{% include education.html %}
+
+{% include publication.html %}
+
+{% include experience.html %}
+
 ## Awards & Honors
 
 <!-- - First Prize, ASC19 Student Supercomputer Challenge, _Dalian, China, 2019;_ -->
@@ -12,10 +28,10 @@ permalink: /cv/
 - Scholarship for Excellent Students, Shanghai Jiao Tong University, _Shanghai, China, 2017;_
 - First Prize, National Olympiad in Informatics in Provinces, _Sichuan, China, 2014;_
 
-## Travel
+<!-- ## Travel
 
 - United States, 2021-now
-- Japan, 2018
+- Japan, 2018 -->
 
 ## Skills
 
