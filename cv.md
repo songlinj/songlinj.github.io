@@ -4,11 +4,6 @@ title: CV
 permalink: /cv/
 ---
 
-## Travel
-
-| United States | 2021-now |
-| Japan         | 2018     |
-
 ## Awards & Honors
 
 <!-- - First Prize, ASC19 Student Supercomputer Challenge, _Dalian, China, 2019;_ -->
@@ -16,6 +11,11 @@ permalink: /cv/
 <!-- - Excellent Student Leader, Shanghai Jiao Tong University, _Shanghai, China, 2018_ -->
 - Scholarship for Excellent Students, Shanghai Jiao Tong University, _Shanghai, China, 2017;_
 - First Prize, National Olympiad in Informatics in Provinces, _Sichuan, China, 2014;_
+
+## Travel
+
+- United States, 2021-now
+- Japan, 2018
 
 ## Skills
 
