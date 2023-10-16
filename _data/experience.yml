@@ -18,5 +18,5 @@
   position: Web Development Lead
   timespan: Sep 2017 - Jun 2018
   details:
-  - Rebuilt the Service & Management System used in SJTU and optimized its interaction guidance, information layout, and data fetching;
-  - Leading the 4-per development team, implemented the back-end (Django) and contributed to the front-end (Vue.js);
+  - Rebuilt the service management system and optimized its interaction guidance, information layout, and data fetching;
+  - Leading the 4-per development team, implemented the backend (Django) and contributed to the front-end (Vue.js);

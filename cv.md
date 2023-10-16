@@ -4,11 +4,16 @@ title: CV
 permalink: /cv/
 ---
 
+## Travel
+
+| United States | 2021-now |
+| Japan         | 2018     |
+
 ## Awards & Honors
 
-- First Prize, ASC19 Student Supercomputer Challenge, _Dalian, China, 2019;_
+<!-- - First Prize, ASC19 Student Supercomputer Challenge, _Dalian, China, 2019;_ -->
 - Honorable Mention, Interdisciplinary Contest in Modeling, _2018;_
-- Excellent Student Leader, Shanghai Jiao Tong University, _Shanghai, China, 2018_
+<!-- - Excellent Student Leader, Shanghai Jiao Tong University, _Shanghai, China, 2018_ -->
 - Scholarship for Excellent Students, Shanghai Jiao Tong University, _Shanghai, China, 2017;_
 - First Prize, National Olympiad in Informatics in Provinces, _Sichuan, China, 2014;_
 
@@ -19,4 +24,4 @@ permalink: /cv/
 |                      | Purdue Oral English Proficiency Test 50 (Certified for TA); |
 | Computer Skills      | C++/C, Python, Scala, Coq, Haskell, StandardML, Racket,     |
 |                      | HTML/CSS, JavaScript, bash, LaTeX;                          |
-| Interests            | Violin, Photography, Psychology;                            |
+| Others               | Violin, Photography;                                        |
