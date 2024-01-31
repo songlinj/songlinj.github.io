@@ -1,9 +1,9 @@
-- title: Polymorphic reachability types: Tracking freshness, aliasing, and separation in higher-order generic programs
+- title: "Polymorphic Reachability Types: Tracking Freshness, Aliasing, and Separation in Higher-Order Generic Programs"
   author: Guannan Wei, Oliver Bračevac, <u>Songlin Jia</u>, Yuyan Bao, and Tiark Rompf
   booktitle: Proceedings of the ACM on Programming Languages 8 (POPL)
   year: 2024
 
-- title: Graph IRs for Impure Higher-Order Languages: Making Aggressive Optimizations Affordable with Precise Effect Dependencies
+- title: "Graph IRs for Impure Higher-Order Languages: Making Aggressive Optimizations Affordable with Precise Effect Dependencies"
   author: Oliver Bračevac, Guannan Wei, <u>Songlin Jia</u>, Supun Abeysinghe, Yuxuan Jiang, Yuyan Bao, and Tiark Rompf
   booktitle: Proceedings of the ACM on Programming Languages 7 (OOPSLA2)
   year: 2023
