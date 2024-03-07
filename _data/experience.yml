@@ -3,15 +3,15 @@
   position: Graduate Teaching Assistant
   timespan: Aug 2022 - Dec 2023
   details:
-  - CS502, Compiling and Programming Systems, 2023 Spring and Fall;
-  - CS565, Programming Languages, 2022 Fall;
+  - CS502, Compiling and Programming Systems (Scala), 2023 Spring and Fall;
+  - CS565, Programming Languages (Coq, Dafny), 2022 Fall;
 
 - organization: Amazon Web Services
   location: Santa Clara, CA, United States
   position: Applied Scientist Intern
   timespan: May - Aug 2023
   details:
-  - Worked on code generation and performance optimization;
+  - Worked on code generation and neural program optimization;
 
 - organization: Network & Information Management Organization, SJTU
   location: Shanghai, China
