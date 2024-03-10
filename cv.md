@@ -22,6 +22,7 @@ permalink: /cv/
 
 ## Awards & Honors
 
+- Merit Recognition Award for Research, Purdue University, _2024;_
 <!-- - First Prize, ASC19 Student Supercomputer Challenge, _Dalian, China, 2019;_ -->
 - Honorable Mention, Interdisciplinary Contest in Modeling, _2018;_
 <!-- - Excellent Student Leader, Shanghai Jiao Tong University, _Shanghai, China, 2018_ -->
@@ -35,9 +36,9 @@ permalink: /cv/
 
 ## Skills
 
+| Computer Skills      | C++/C, Python, Scala, Coq, JavaScript, bash, LaTeX,         |
+|                      | Java, C#, Dafny, SML, Racket, Haskell;                      |
 | Language Proficiency | TOEFL 105 (Reading 27 Listening 28 Speaking 23 Writing 27), |
 |                      | GRE General 326 (Verbal 157 Quantitative 169 AW 3.5),       |
 |                      | Purdue Oral English Proficiency Test 50 (Certified for TA); |
-| Computer Skills      | C++/C, Python, Scala, Coq, JavaScript, bash, LaTeX,         |
-|                      | Java, C#, Dafny, SML, Racket, Haskell;                      |
 | Others               | Violin, Photography;                                        |
