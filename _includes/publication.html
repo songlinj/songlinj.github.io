@@ -4,6 +4,6 @@
 <p>
 <b>{{ item.title }}</b><br>
 <small><em>{{ item.author }}</em></small><br>
-in {{ item.booktitle }}, {{ item.year }}
+{%if item.status %}{{ item.status }}{% else %}in{% endif %} {{ item.venue }}, {{ item.year }}
 </p>
 {% endfor %}
