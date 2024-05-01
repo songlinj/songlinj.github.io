@@ -1,10 +1,16 @@
+- organization: Amazon Web Services
+  location: Santa Clara, CA, United States
+  position: Applied Scientist Intern
+  timespan: Apr - Aug 2024 (expected)
+  details:
+  - Working on automated reasoning for service design;
+
 - organization: Purdue University
   location: West Lafayette, IN, United States
   position: Graduate Teaching Assistant
-  timespan: Aug 2022 - Dec 2023
+  timespan: Aug - Dec 2023
   details:
-  - CS502, Compiling and Programming Systems (Scala), 2023 Spring and Fall;
-  - CS565, Programming Languages (Coq, Dafny), 2022 Fall;
+  - CS502, Compiling and Programming Systems (Scala), 2023 Fall;
 
 - organization: Amazon Web Services
   location: Santa Clara, CA, United States
@@ -12,6 +18,14 @@
   timespan: May - Aug 2023
   details:
   - Worked on code generation and neural program optimization;
+
+- organization: Purdue University
+  location: West Lafayette, IN, United States
+  position: Graduate Teaching Assistant
+  timespan: Aug 2022 - May 2023
+  details:
+  - CS502, Compiling and Programming Systems (Scala), 2023 Spring;
+  - CS565, Programming Languages (Coq, Dafny), 2022 Fall;
 
 - organization: Network & Information Management Organization, SJTU
   location: Shanghai, China
