@@ -20,6 +20,7 @@ permalink: /cv/
 
 {% include experience.html %}
 
+<div markdown="1" style="page-break-inside: avoid;">
 ## Awards & Honors
 
 - Merit Recognition Award for Research, Purdue University, _2024;_
@@ -28,14 +29,14 @@ permalink: /cv/
 <!-- - Excellent Student Leader, Shanghai Jiao Tong University, _Shanghai, China, 2018_ -->
 - Scholarship for Excellent Students, Shanghai Jiao Tong University, _Shanghai, China, 2017;_
 - First Prize, National Olympiad in Informatics in Provinces, _Sichuan, China, 2014;_
+</div>
 
 <!-- ## Travel
 
 - United States, 2021-now
 - Japan, 2018 -->
 
-<div markdown="1" style="display: block;">
-
+<div markdown="1" style="page-break-inside: avoid;">
 ## Skills
 
 | Computer Skills      | C++/C, Python, Scala, Coq, JavaScript, bash, LaTeX,         |
@@ -44,5 +45,4 @@ permalink: /cv/
 |                      | GRE General 326 (Verbal 157 Quantitative 169 AW 3.5),       |
 |                      | Purdue Oral English Proficiency Test 50 (Certified for TA); |
 | Others               | Violin, Photography;                                        |
-
 </div>
