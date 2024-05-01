@@ -34,6 +34,8 @@ permalink: /cv/
 - United States, 2021-now
 - Japan, 2018 -->
 
+<div>
+
 ## Skills
 
 | Computer Skills      | C++/C, Python, Scala, Coq, JavaScript, bash, LaTeX,         |
@@ -42,3 +44,5 @@ permalink: /cv/
 |                      | GRE General 326 (Verbal 157 Quantitative 169 AW 3.5),       |
 |                      | Purdue Oral English Proficiency Test 50 (Certified for TA); |
 | Others               | Violin, Photography;                                        |
+
+</div>
