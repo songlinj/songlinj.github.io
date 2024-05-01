@@ -29,12 +29,16 @@ permalink: /cv/
 <!-- - Excellent Student Leader, Shanghai Jiao Tong University, _Shanghai, China, 2018_ -->
 - Scholarship for Excellent Students, Shanghai Jiao Tong University, _Shanghai, China, 2017;_
 - First Prize, National Olympiad in Informatics in Provinces, _Sichuan, China, 2014;_
+
 </div>
 
-<!-- ## Travel
+<div markdown="1" style="display: none; page-break-inside: avoid;">
+## Travel
 
 - United States, 2021-now
-- Japan, 2018 -->
+- Japan, 2018
+
+</div>
 
 <div markdown="1" style="page-break-inside: avoid;">
 ## Skills
@@ -45,4 +49,5 @@ permalink: /cv/
 |                      | GRE General 326 (Verbal 157 Quantitative 169 AW 3.5),       |
 |                      | Purdue Oral English Proficiency Test 50 (Certified for TA); |
 | Others               | Violin, Photography;                                        |
+
 </div>
