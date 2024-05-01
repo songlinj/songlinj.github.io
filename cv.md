@@ -23,7 +23,7 @@ permalink: /cv/
 <div markdown="1" style="page-break-inside: avoid;">
 ## Awards & Honors
 
-- Merit Recognition Award for Research, Purdue University, _2024;_
+- Merit Recognition Award for Research, Purdue University, _West Lafayette, IN, 2024;_
 <!-- - First Prize, ASC19 Student Supercomputer Challenge, _Dalian, China, 2019;_ -->
 - Honorable Mention, Interdisciplinary Contest in Modeling, _2018;_
 <!-- - Excellent Student Leader, Shanghai Jiao Tong University, _Shanghai, China, 2018_ -->
