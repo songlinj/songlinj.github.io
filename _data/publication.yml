@@ -1,30 +1,30 @@
+- title: "Escape with Your Self: Expressive Reachability Types with Sound and Decidable Bidirectional Type Checking"
+  author: <u>Songlin Jia</u>, Guannan Wei, Siyuan He, Yueyang Tang, Yuyan Bao, Tiark Rompf
+  venue: ACM SIGPLAN International Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA)
+  year: 2024
+  status: submitted to
+
 - title: "Polymorphic Reachability Types: Tracking Freshness, Aliasing, and Separation in Higher-Order Generic Programs"
   author: Guannan Wei, Oliver Bračevac, <u>Songlin Jia</u>, Yuyan Bao, and Tiark Rompf
-  booktitle: the 51st ACM SIGPLAN Symposium on Principles of Programming Languages (POPL)
+  venue: ACM-SIGACT Symposium on Principles of Programming Languages (POPL)
   year: 2024
 
 - title: "Graph IRs for Impure Higher-Order Languages: Making Aggressive Optimizations Affordable with Precise Effect Dependencies"
   author: Oliver Bračevac, Guannan Wei, <u>Songlin Jia</u>, Supun Abeysinghe, Yuxuan Jiang, Yuyan Bao, and Tiark Rompf
-  booktitle: ACM SIGPLAN International Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA)
+  venue: ACM SIGPLAN International Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA)
   year: 2023
 
 - title: Compiling Parallel Symbolic Execution with Continuations
   author: Guannan Wei, <u>Songlin Jia</u>, Ruiqi Gao, Haotian Deng, Shangyin Tan, Oliver Bračevac, and Tiark Rompf
-  booktitle: IEEE/ACM 45th International Conference on Software Engineering (ICSE)
-  pages: 1316--1328
+  venue: International Conference on Software Engineering (ICSE)
   year: 2023
-  organization: IEEE
 
 - title: Annotating, Tracking, and Protecting Cryptographic Secrets with CryptoMPK
   author: Xuancheng Jin, Xuangan Xiao, <u>Songlin Jia</u>, Wang Gao, Dawu Gu, Hang Zhang, Siqi Ma, Zhiyun Qian, and Juanru Li
-  booktitle: IEEE Symposium on Security and Privacy (SP)
-  pages: 650--665
+  venue: IEEE Symposium on Security and Privacy (SP)
   year: 2022
-  organization: IEEE
 
 - title: Accelerating SM2 Digital Signature Algorithm Using Modern Processor Features
   author: Long Mai, Yuan Yan, <u>Songlin Jia</u>, Shuran Wang, Jianqiang Wang, Juanru Li, Siqi Ma, and Dawu Gu
-  booktitle: International Conference on Information and Communications Security
-  pages: 430--446
+  venue: International Conference on Information and Communication Security (ICICS)
   year: 2019
-  organization: Springer International Publishing Cham
