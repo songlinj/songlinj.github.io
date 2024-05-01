@@ -1,7 +1,7 @@
 <h2>Publication</h2>
 
 {% for item in site.data.publication %}
-<p>
+<p style="display: block;">
 <b>{{ item.title }}</b><br>
 <small><em>{{ item.author }}</em></small><br>
 {{ item.status | default: "in" }} {{ item.venue }}, {{ item.year }}
