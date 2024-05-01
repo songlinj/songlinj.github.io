@@ -34,7 +34,7 @@ permalink: /cv/
 - United States, 2021-now
 - Japan, 2018 -->
 
-<div>
+<div markdown="1" style="display: block;">
 
 ## Skills
 
