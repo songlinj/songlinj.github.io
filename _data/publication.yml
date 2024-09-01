@@ -1,8 +1,7 @@
 - title: "Escape with Your Self: Expressive Reachability Types with Sound and Decidable Bidirectional Type Checking"
   author: <u>Songlin Jia</u>, Guannan Wei, Siyuan He, Yueyang Tang, Yuyan Bao, Tiark Rompf
-  venue: ACM SIGPLAN International Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA)
-  year: 2024
-  status: submitted to
+  venue: submission
+  year: 2025
 
 - title: "Polymorphic Reachability Types: Tracking Freshness, Aliasing, and Separation in Higher-Order Generic Programs"
   author: Guannan Wei, Oliver Bračevac, <u>Songlin Jia</u>, Yuyan Bao, and Tiark Rompf
