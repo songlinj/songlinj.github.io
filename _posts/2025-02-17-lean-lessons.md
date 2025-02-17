@@ -1,4 +1,9 @@
-# Lean Lessons that May or May Not Carry Over to Coq
+---
+layout: post
+title:  "Lean Lessons that May or May Not Carry Over to Coq"
+date:   2025-02-17
+categories: proof
+---
 
 ## Automation
 
