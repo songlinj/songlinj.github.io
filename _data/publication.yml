@@ -1,5 +1,10 @@
-- title: "Escape with Your Self: Expressive Reachability Types with Sound and Decidable Bidirectional Type Checking"
-  author: <u>Songlin Jia</u>, Guannan Wei, Siyuan He, Yueyang Tang, Yuyan Bao, Tiark Rompf
+- title: "Escape with Your Self: Sound and Expressive Bidirectional Typing with Avoidance for Reachability Types"
+  author: <u>Songlin Jia</u>, Guannan Wei, Siyuan He, Yuyan Bao, Tiark Rompf
+  venue: submission
+  year: 2025
+
+- title: "Modeling Reachability Types with Logical Relations -- Semantic Type Soundness, Termination, Effect Safety, and Equational Theory"
+  author: Yuyan Bao, <u>Songlin Jia</u>, Guannan Wei, Oliver Bračevac, Tiark Rompf
   venue: submission
   year: 2025
 
