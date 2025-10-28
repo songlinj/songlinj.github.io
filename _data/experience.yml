@@ -1,17 +1,21 @@
 - organization: Purdue University
   location: West Lafayette, IN, United States
   position: Graduate Teaching Assistant
-  timespan: Aug 2024 - May 2025
+  timespan: Aug 2022 - present
   details:
-  - CS565, Programming Languages (Coq, Dafny), 2025 Spring;
-  - CS502, Compiling and Programming Systems (Scala), 2024 Fall;
+  - CS502, Compiling and Programming Systems (Scala), 2022 Fall, 2024 Fall, 2025 Fall;
+  - CS565, Programming Languages (Coq, Dafny), 2023 Spring & Fall, 2025 Spring;
+
+- organization: Conference on Object-Oriented Programming, Systems, Languages, and Applications 
+  position: "OOPSLA'25 Artifact Evaluation Committee"
+  timespan: Aug 2025
 
 - organization: ACM SIGPLAN Symposium on Principles of Programming Languages
-  position: "POPL'25 Artifact Evaluation Committe"
+  position: "POPL'25 Artifact Evaluation Committee"
   timespan: Oct 2024
 
 - organization: ACM SIGPLAN International Conference on Functional Programming
-  position: "ICFP'24 Artifact Evaluation Committe"
+  position: "ICFP'24 Artifact Evaluation Committee"
   timespan: Jun 2024
 
 - organization: Amazon Web Services
@@ -19,7 +23,7 @@
   position: Applied Scientist Intern
   timespan: Apr - Aug 2024
   details:
-  - Working on automated reasoning for service design;
+  - Analysis of service resilience using symbolic execution (Astrid);
 
 # - organization: Purdue University
 #   location: West Lafayette, IN, United States
@@ -33,7 +37,7 @@
   position: Applied Scientist Intern
   timespan: May - Aug 2023
   details:
-  - Worked on code generation and neural program optimization;
+  - Language model for low-level code generation (CodeWhisperer);
 
 # - organization: Purdue University
 #   location: West Lafayette, IN, United States

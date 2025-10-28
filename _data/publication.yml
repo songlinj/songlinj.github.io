@@ -3,9 +3,34 @@
   venue: submission
   year: 2025
 
-- title: "Modeling Reachability Types with Logical Relations -- Semantic Type Soundness, Termination, Effect Safety, and Equational Theory"
-  author: Yuyan Bao, <u>Songlin Jia</u>, Guannan Wei, Oliver Bračevac, Tiark Rompf
+- title: "Typestate via Revocable Capabilities"
+  author: <u>Songlin Jia</u>, Craig Liu, Siyuan He, Haotian Deng, Yuyan Bao, Tiark Rompf
   venue: submission
+  year: 2025
+
+- title: "When Lifetimes Liberate: A Type System for Arenas with Higher-Order Reachability Tracking"
+  author: Siyuan He, <u>Songlin Jia</u>, Yuyan Bao, Tiark Rompf
+  venue: submission
+  year: 2025
+
+- title: "Free to Move: Reachability Types with Flow-Sensitive Effects for Safe Deallocation and Ownership Transfer"
+  author: Haotian Deng, Siyuan He, <u>Songlin Jia</u>, Yuyan Bao, Tiark Rompf
+  venue: submission
+  year: 2025
+
+- title: "Adaptive Proof Refinement with LLM-Guided Strategy Selection"
+  author: Minghai Lu, Zhe Zhou, Danning Xie, <u>Songlin Jia</u>, Benjamin Delaware, Tianyi Zhang
+  venue: submission
+  year: 2025
+
+- title: "Modeling Reachability Types with Logical Relations: Semantic Type Soundness, Termination, Effect Safety, and Equational Theory"
+  author: Yuyan Bao, <u>Songlin Jia</u>, Guannan Wei, Oliver Bračevac, Tiark Rompf
+  venue: Proceedings of the ACM on Programming Languages, Volume 9, Issue OOPSLA2
+  year: 2025
+
+- title: "Complete the Cycle: Reachability Types with Expressive Cyclic References"
+  author: Haotian Deng, Siyuan He, <u>Songlin Jia</u>, Yuyan Bao, Tiark Rompf
+  venue: Proceedings of the ACM on Programming Languages, Volume 9, Issue OOPSLA2
   year: 2025
 
 - title: "Polymorphic Reachability Types: Tracking Freshness, Aliasing, and Separation in Higher-Order Generic Programs"
