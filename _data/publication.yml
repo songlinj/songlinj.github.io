@@ -1,27 +1,29 @@
-- title: "Escape with Your Self: Sound and Expressive Bidirectional Typing with Avoidance for Reachability Types"
-  author: <u>Songlin Jia</u>, Guannan Wei, Siyuan He, Yuyan Bao, Tiark Rompf
-  venue: submission
-  year: 2025
-
-- title: "Typestate via Revocable Capabilities"
-  author: <u>Songlin Jia</u>, Craig Liu, Siyuan He, Haotian Deng, Yuyan Bao, Tiark Rompf
-  venue: submission
-  year: 2025
-
-- title: "When Lifetimes Liberate: A Type System for Arenas with Higher-Order Reachability Tracking"
-  author: Siyuan He, <u>Songlin Jia</u>, Yuyan Bao, Tiark Rompf
-  venue: submission
-  year: 2025
-
 - title: "Free to Move: Reachability Types with Flow-Sensitive Effects for Safe Deallocation and Ownership Transfer"
   author: Haotian Deng, Siyuan He, <u>Songlin Jia</u>, Yuyan Bao, Tiark Rompf
   venue: submission
-  year: 2025
+  year: 2026
 
 - title: "Adaptive Proof Refinement with LLM-Guided Strategy Selection"
   author: Minghai Lu, Zhe Zhou, Danning Xie, <u>Songlin Jia</u>, Benjamin Delaware, Tianyi Zhang
   venue: submission
-  year: 2025
+  year: 2026
+
+- title: "Escape with Your Self: Sound and Expressive Bidirectional Typing with Avoidance for Reachability Types"
+  author: <u>Songlin Jia</u>, Guannan Wei, Siyuan He, Yuyan Bao, Tiark Rompf
+  status: conditionally accepted to
+  venue: PLDI
+  year: 2026
+
+- title: "Typestate via Revocable Capabilities"
+  author: <u>Songlin Jia</u>, Craig Liu, Siyuan He, Haotian Deng, Yuyan Bao, Tiark Rompf
+  status: conditionally accepted to
+  venue: PLDI
+  year: 2026
+
+- title: "When Lifetimes Liberate: A Type System for Arenas with Higher-Order Reachability Tracking"
+  author: Siyuan He, <u>Songlin Jia</u>, Yuyan Bao, Tiark Rompf
+  venue: OOPSLA
+  year: 2026
 
 - title: "Modeling Reachability Types with Logical Relations: Semantic Type Soundness, Termination, Effect Safety, and Equational Theory"
   author: Yuyan Bao, <u>Songlin Jia</u>, Guannan Wei, Oliver Bračevac, Tiark Rompf

@@ -3,8 +3,8 @@
   position: Graduate Teaching Assistant
   timespan: Aug 2022 - present
   details:
-  - CS502, Compiling and Programming Systems (Scala), 2022 Fall, 2024 Fall, 2025 Fall;
-  - CS565, Programming Languages (Coq, Dafny), 2023 Spring & Fall, 2025 Spring;
+  - CS352 & CS502, Compiling and Programming Systems (Scala);
+  - CS565, Programming Languages (Coq, Dafny);
 
 - organization: Conference on Object-Oriented Programming, Systems, Languages, and Applications 
   position: "OOPSLA'25 Artifact Evaluation Committee"
