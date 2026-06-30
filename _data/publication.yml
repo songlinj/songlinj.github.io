@@ -5,25 +5,23 @@
 
 - title: "Adaptive Proof Refinement with LLM-Guided Strategy Selection"
   author: Minghai Lu, Zhe Zhou, Danning Xie, <u>Songlin Jia</u>, Benjamin Delaware, Tianyi Zhang
-  venue: submission
+  venue: to be appeared in
+  venue: ASE
   year: 2026
 
 - title: "Escape with Your Self: Sound and Expressive Bidirectional Typing with Avoidance for Reachability Types"
   author: <u>Songlin Jia</u>, Guannan Wei, Siyuan He, Yuyan Bao, Tiark Rompf
-  status: to be appeared in
-  venue: PLDI
+  venue: Proceedings of the ACM on Programming Languages, Volume 10, Issue PLDI
   year: 2026
 
 - title: "Typestate via Revocable Capabilities"
   author: <u>Songlin Jia</u>, Craig Liu, Siyuan He, Haotian Deng, Yuyan Bao, Tiark Rompf
-  status: to be appeared in
-  venue: PLDI
+  venue: Proceedings of the ACM on Programming Languages, Volume 10, Issue PLDI
   year: 2026
 
 - title: "When Lifetimes Liberate: A Type System for Arenas with Higher-Order Reachability Tracking"
   author: Siyuan He, <u>Songlin Jia</u>, Yuyan Bao, Tiark Rompf
-  status: to be appeared in
-  venue: OOPSLA
+  venue: Proceedings of the ACM on Programming Languages, Volume 10, Issue OOPSLA1
   year: 2026
 
 - title: "Modeling Reachability Types with Logical Relations: Semantic Type Soundness, Termination, Effect Safety, and Equational Theory"

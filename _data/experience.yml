@@ -23,7 +23,7 @@
   position: Applied Scientist Intern
   timespan: Apr - Aug 2024
   details:
-  - Analysis of service resilience using symbolic execution (Astrid);
+  - Analyzing resilience properties of service models using symbolic execution (Astrid);
 
 # - organization: Purdue University
 #   location: West Lafayette, IN, United States
@@ -37,7 +37,7 @@
   position: Applied Scientist Intern
   timespan: May - Aug 2023
   details:
-  - Language model for low-level code generation (CodeWhisperer);
+  - Language models for code compilation and decompilation (CodeWhisperer);
 
 # - organization: Purdue University
 #   location: West Lafayette, IN, United States
