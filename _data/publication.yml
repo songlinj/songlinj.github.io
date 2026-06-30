@@ -29,8 +29,8 @@
   links:
     - ["doi", "https://dl.acm.org/doi/10.1145/3808335"]
     - ["extended", "https://arxiv.org/abs/2404.08217"]
-    - ["slides", "https://tantalus13a98b5f.github.io/pldi26-slides/escape/"]
-    - ["artifact", "https://doi.org/10.5281/zenodo.16593602"]
+    - ["slides", "https://tantalus13a98b5f.github.io/pldi26-slides/escape/?view=scroll"]
+    - ["mechanization", "https://doi.org/10.5281/zenodo.16593602"]
 
 - title: "Typestate via Revocable Capabilities"
   author: <u>Songlin Jia</u>, Craig Liu, Siyuan He, Haotian Deng, Yuyan Bao, Tiark Rompf
@@ -39,8 +39,8 @@
   links:
     - ["doi", "https://dl.acm.org/doi/10.1145/3808323"]
     - ["extended", "https://doi.org/10.48550/arXiv.2510.08889"]
-    - ["slides", "https://tantalus13a98b5f.github.io/pldi26-slides/typestate/"]
-    - ["artifact", "https://doi.org/10.5281/zenodo.19614655"]
+    - ["slides", "https://tantalus13a98b5f.github.io/pldi26-slides/typestate/?view=scroll"]
+    - ["prototype", "https://doi.org/10.5281/zenodo.19614655"]
 
 - title: "When Lifetimes Liberate: A Type System for Arenas with Higher-Order Reachability Tracking"
   author: Siyuan He, <u>Songlin Jia</u>, Yuyan Bao, Tiark Rompf
