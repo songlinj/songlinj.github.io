@@ -3,18 +3,24 @@
   venue: submission
   year: 2026
   draft: true
+  links:
+    - ["arxiv", "https://arxiv.org/abs/2603.23360"]
 
 - title: "Free to Move: Reachability Types with Flow-Sensitive Effects for Safe Deallocation and Ownership Transfer"
   author: Haotian Deng, Siyuan He, <u>Songlin Jia</u>, Yuyan Bao, Tiark Rompf
   venue: submission
   year: 2026
   draft: true
+  links:
+    - ["arxiv", "https://arxiv.org/abs/2510.08939"]
 
 - title: "Adaptive Proof Refinement with LLM-Guided Strategy Selection"
   author: Minghai Lu, Zhe Zhou, Danning Xie, <u>Songlin Jia</u>, Benjamin Delaware, Tianyi Zhang
   status: to be appeared in
   venue: ASE
   year: 2026
+  links:
+    - ["arxiv", "https://arxiv.org/abs/2510.25103"]
 
 - title: "Escape with Your Self: Sound and Expressive Bidirectional Typing with Avoidance for Reachability Types"
   author: <u>Songlin Jia</u>, Guannan Wei, Siyuan He, Yuyan Bao, Tiark Rompf
@@ -59,21 +65,21 @@
 
 - title: "Polymorphic Reachability Types: Tracking Freshness, Aliasing, and Separation in Higher-Order Generic Programs"
   author: Guannan Wei, Oliver Bračevac, <u>Songlin Jia</u>, Yuyan Bao, and Tiark Rompf
-  venue: ACM-SIGACT Symposium on Principles of Programming Languages (POPL)
+  venue: Proceedings of the ACM on Programming Languages, Volume 8, Issue POPL
   year: 2024
   links:
     - ["doi", "https://doi.org/10.1145/3632856"]
 
 - title: "Graph IRs for Impure Higher-Order Languages: Making Aggressive Optimizations Affordable with Precise Effect Dependencies"
   author: Oliver Bračevac, Guannan Wei, <u>Songlin Jia</u>, Supun Abeysinghe, Yuxuan Jiang, Yuyan Bao, and Tiark Rompf
-  venue: ACM SIGPLAN International Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA)
+  venue: Proceedings of the ACM on Programming Languages, Volume 7, Issue OOPSLA2
   year: 2023
   links:
     - ["doi", "https://doi.org/10.1145/3622813"]
 
 - title: Compiling Parallel Symbolic Execution with Continuations
   author: Guannan Wei, <u>Songlin Jia</u>, Ruiqi Gao, Haotian Deng, Shangyin Tan, Oliver Bračevac, and Tiark Rompf
-  venue: International Conference on Software Engineering (ICSE)
+  venue: IEEE/ACM International Conference on Software Engineering (ICSE)
   year: 2023
   links:
     - ["doi", "https://doi.org/10.1109/icse48619.2023.00116"]
