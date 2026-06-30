@@ -1,9 +1,14 @@
 <h2>Publication</h2>
 
 {% for item in site.data.publication %}
+{% unless include.cv and item.draft %}
 <p style="page-break-inside: avoid;">
 <b>{{ item.title }}</b><br>
 <small><em>{{ item.author }}</em></small><br>
 {{ item.status | default: "in" }} {{ item.venue }}, {{ item.year }}
+{% if item.links and include.cv != true %}<br>
+{% for link in item.links %}<a href="{{ link[1] }}">[{{ link[0] }}]</a>{% unless forloop.last %} {% endunless %}{% endfor %}
+{% endif %}
 </p>
+{% endunless %}
 {% endfor %}

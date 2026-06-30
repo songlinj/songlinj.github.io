@@ -16,7 +16,7 @@ permalink: /cv/
 
 {% include education.html %}
 
-{% include publication.html %}
+{% include publication.html cv=true %}
 
 {% include experience.html %}
 

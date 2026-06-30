@@ -2,10 +2,11 @@
   author: Haotian Deng, Siyuan He, <u>Songlin Jia</u>, Yuyan Bao, Tiark Rompf
   venue: submission
   year: 2026
+  draft: true
 
 - title: "Adaptive Proof Refinement with LLM-Guided Strategy Selection"
   author: Minghai Lu, Zhe Zhou, Danning Xie, <u>Songlin Jia</u>, Benjamin Delaware, Tianyi Zhang
-  venue: to be appeared in
+  status: to be appeared in
   venue: ASE
   year: 2026
 
@@ -13,6 +14,11 @@
   author: <u>Songlin Jia</u>, Guannan Wei, Siyuan He, Yuyan Bao, Tiark Rompf
   venue: Proceedings of the ACM on Programming Languages, Volume 10, Issue PLDI
   year: 2026
+  links:
+    - ["doi", "https://dl.acm.org/doi/10.1145/3808335"]
+    - ["arxiv", "https://arxiv.org/abs/2404.08217"]
+    - ["slides", "https://tantalus13a98b5f.github.io/pldi26-slides/escape/"]
+    - ["artifact", "https://doi.org/10.5281/zenodo.16593602"]
 
 - title: "Typestate via Revocable Capabilities"
   author: <u>Songlin Jia</u>, Craig Liu, Siyuan He, Haotian Deng, Yuyan Bao, Tiark Rompf
