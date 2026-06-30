@@ -1,4 +1,4 @@
-<h2>Publication</h2>
+<h2>{{ include.title | default: "Publication" }}</h2>
 
 {% assign max = include.limit | default: site.data.publication.size %}
 {% for item in site.data.publication limit: max %}
