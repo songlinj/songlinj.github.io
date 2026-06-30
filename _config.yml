@@ -41,4 +41,5 @@ plugins:
 #   - vendor/ruby/
 
 header_pages:
+  - pubs.md
   - cv.md
