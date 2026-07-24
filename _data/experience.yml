@@ -1,4 +1,5 @@
-- organization: Purdue University
+- group: teaching
+  organization: Purdue University
   location: West Lafayette, IN, United States
   position: Graduate Teaching Assistant
   timespan: Aug 2022 - present
@@ -6,50 +7,114 @@
   - CS352 & CS502, Compiling and Programming Systems (Scala);
   - CS565, Programming Languages (Coq, Dafny);
 
-- organization: Conference on Object-Oriented Programming, Systems, Languages, and Applications 
+- group: teaching
+  organization: Conference on Object-Oriented Programming, Systems, Languages, and Applications
   position: "OOPSLA'25 Artifact Evaluation Committee"
   timespan: Aug 2025
 
-- organization: ACM SIGPLAN Symposium on Principles of Programming Languages
+- group: teaching
+  organization: ACM SIGPLAN Symposium on Principles of Programming Languages
   position: "POPL'25 Artifact Evaluation Committee"
   timespan: Oct 2024
 
-- organization: ACM SIGPLAN International Conference on Functional Programming
+- group: teaching
+  organization: ACM SIGPLAN International Conference on Functional Programming
   position: "ICFP'24 Artifact Evaluation Committee"
   timespan: Jun 2024
 
-- organization: Amazon Web Services
+- group: work
+  optional: rsch
+  organization: Purdue University
+  location: West Lafayette, IN
+  position: Research Assistant
+  timespan: Sep 2024 - present
+  details:
+  - Automating proofs for language soundness and software verification using large language models;
+
+- group: work
+  organization: Amazon Web Services
   location: Santa Clara, CA, United States
-  position: Applied Scientist Intern
+  position: Applied Scientist Intern, Automated Reasoning
   timespan: Apr - Aug 2024
   details:
-  - Analyzing resilience properties of service models using symbolic execution (Astrid);
+  - Built tools for analyzing resilience properties of service models using symbolic execution;
 
-# - organization: Purdue University
-#   location: West Lafayette, IN, United States
-#   position: Graduate Teaching Assistant
-#   timespan: Aug - Dec 2023
-#   details:
-#   - CS502, Compiling and Programming Systems (Scala), 2023 Fall;
+- group: work
+  optional: rsch
+  organization: Purdue University
+  location: West Lafayette, IN
+  position: Research Assistant
+  timespan: Aug 2023 - present
+  details:
+  - Putting <em>Reachability Types</em> into practical, functional languages
+    with resource-and-effect reasoning;
+  - Designed typing algorithms supporting escaping data types, with mechanized
+    soundness in Lean;
+  - Built a typestate programming framework on top of Scala compiler;
 
-- organization: Amazon Web Services
+- group: work
+  organization: Amazon Web Services
   location: Santa Clara, CA, United States
-  position: Applied Scientist Intern
+  position: Applied Scientist Intern, CodeWhisperer
   timespan: May - Aug 2023
   details:
-  - Language models for code compilation and decompilation (CodeWhisperer);
+  - Explored language models for code compilation, decompilation, and
+    optimization;
 
-# - organization: Purdue University
-#   location: West Lafayette, IN, United States
-#   position: Graduate Teaching Assistant
-#   timespan: Aug 2022 - May 2023
-#   details:
-#   - CS502, Compiling and Programming Systems (Scala), 2023 Spring;
-#   - CS565, Programming Languages (Coq, Dafny), 2022 Fall;
+- group: work
+  optional: rsch
+  organization: Purdue University
+  location: West Lafayette, IN
+  position: Research Assistant
+  timespan: Aug 2021 - Dec 2022
+  details:
+  - Accelerating symbolic execution by specializing the engine over analyzed programs;
+  - Contributed to the efficient use of solver resources and the memory model;
 
-- organization: Network & Information Management Organization, SJTU
+- group: work
+  optional: hpc
+  organization: Shanghai Jiao Tong University
   location: Shanghai, China
-  position: Web Development Lead
+  position: Research Assistant, Center for High-Performance Computing
+  timespan: Sep 2020 - July 2021
+  details:
+  - Conducted analysis of performance variation of modern Intel and ARM processors;
+
+- group: work
+  optional: hpc
+  organization: SenseTime Group
+  location: Beijing, China (remote)
+  position: Intern, Compilation and Toolchain
+  timespan: Aug 2020 - July 2021
+  details:
+  - Developed a sparse convolution operator for TVM and contributed it upstream;
+
+- group: work
+  optional: sec
+  organization: Shanghai Jiao Tong University
+  location: Shanghai, China
+  position: Research Assistant, Group of Software Security in Progress
+  timespan: Sep 2019 - Jun 2020
+  details:
+  - Developed a program hardening scheme using Intel Memory Protection Keys (MPK);
+  - Devised an efficient whole-program dataflow analysis to identify
+    resources that need protection;
+  - Proposed a lightweight instrumentation scheme to reduce overhead;
+
+- group: work
+  optional: sec
+  organization: Shanghai Jiao Tong University
+  location: Shanghai, China
+  position: Research Intern, Group of Software Security in Progress
+  timespan: Sep 2018 - Jan 2019
+  details:
+  - Optimized cryptographic operations using Intel intrinsic instructions
+    and reorganized algorithms;
+
+- group: work
+  organization: Shanghai Jiao Tong University
+  location: Shanghai, China
+  position: Web Lead, Network & Information Management Organization
   timespan: Sep 2017 - Jun 2018
   details:
   - Rebuilt the service management system and optimized its interaction guidance, information layout, and data fetching;

@@ -41,6 +41,24 @@ table td:first-child {
 h2 {
   border-bottom: 1px solid black;
 }
+/* Optional content: hidden by default, revealed via ?show= (see script below). */
+.opt {
+  display: none;
+}
 </style>
 
 {{ content }}
+
+<script>
+(function () {
+  var show = (new URLSearchParams(window.location.search).get('show') || '')
+    .split(',').map(function (s) { return s.trim(); }).filter(Boolean);
+  if (!show.length) return;
+  var all = show.indexOf('all') !== -1;
+
+  document.querySelectorAll('.opt').forEach(function (el) {
+    var reveal = all || show.some(function (g) { return el.classList.contains('opt-' + g); });
+    if (reveal) el.classList.remove('opt');
+  });
+})();
+</script>
