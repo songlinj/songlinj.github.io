@@ -15,7 +15,7 @@
 - tag: service
   organization: Mentoring
   details:
-  - Craig Liu, undergraduate student (2026); <em>now Ph.D. student at UC Berkeley;</em>
+  - Craig Liu, Purdue undergraduate (2026); <em>now Ph.D. student at UC Berkeley;</em>
 
 - tag: research
   organization: Large Language Models for Proofs
@@ -99,5 +99,5 @@
   position: Web Lead, Network & Information Management Organization
   timespan: Sep 2017 - Jun 2018
   details:
-  - Rebuilt the service management system and optimized its interaction guidance, information layout, and data fetching;
-  - Leading the 4-per development team, implemented the backend (Django) and contributed to the front-end (Vue.js);
+  - Rebuilt the service system and optimized its interaction guidance, information layout, and data fetching;
+  - Leading the 4-per dev team, implemented the backend (Django) and contributed to the front-end (Vue.js);
