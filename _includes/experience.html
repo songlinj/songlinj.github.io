@@ -1,5 +1,7 @@
+{% assign selected = include.tags | split: "," %}
 {% for item in site.data.experience %}
-{% unless item.tags contains include.tag %}{% continue %}{% endunless %}
+{% unless item.tag %}{% continue %}{% endunless %}
+{% if include.tags %}{% unless selected contains item.tag %}{% continue %}{% endunless %}{% endif %}
 <div class="cv-item">
 <span><b>{{ item.organization }}</b></span>&nbsp;<span><small>{{ item.location }}</small></span>
 <span class="right"><em>{{ item.timespan }}</em></span>
@@ -7,7 +9,8 @@
 {% if item.details %}
 <ul>
 {% for ditem in item.details %}
-<li>{{ ditem }}</li>
+{% assign cols = ditem | split: "|" %}
+<li>{{ cols[0] | strip }}{% if cols.size > 1 %}<span class="right">{{ cols[1] | strip }}</span>{% endif %}</li>
 {% endfor %}
 </ul>
 {% endif %}

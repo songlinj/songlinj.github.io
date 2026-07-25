@@ -1,31 +1,45 @@
-- tags: [service]
+- tag: service
   organization: Teaching Assistant
   location: Purdue University
-  timespan: Aug 2022 - present
   details:
-  - CS352 & CS502, Compiling and Programming Systems (Scala);
-  - CS565, Programming Languages (Coq, Dafny);
+  - CS352 & CS502, Compiling and Programming Systems (Scala) | 2023S,F, 2024F, 2025F, 2026S
+  - CS565, Programming Languages (Coq, Dafny) | 2022F, 2025S
 
-- tags: [service]
+- tag: service
   organization: Artifact Evaluation Committee
   details:
-  - "Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA): 2025, 2026;"
-  - "Symposium on Principles of Programming Languages (POPL): 2025;"
-  - "International Conference on Functional Programming (ICFP): 2024;"
+  - Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA) | 2025, 2026
+  - Symposium on Principles of Programming Languages (POPL) | 2025
+  - International Conference on Functional Programming (ICFP) | 2024
 
-- tags: [service]
+- tag: service
   organization: Mentoring
   details:
   - Craig Liu, undergraduate student (2026); <em>now Ph.D. student at UC Berkeley;</em>
 
-- tags: [research]
+- tag: research
   organization: Large Language Models for Proofs
   location: Purdue University
   timespan: Sep 2024 - present
   details:
   - Automating proofs for language soundness and software verification using large language models;
 
-- tags: [work]
+- tag: talk
+  organization: PLDI'26
+  location: Boulder, CO
+  timespan: Jun 2026
+  details:
+  - "Escape with Your Self: Sound and Expressive Bidirectional Typing with Avoidance for Reachability Types"
+  - Typestate via Revocable Capabilities
+
+- tag: talk
+  organization: OOPSLA'24
+  location: Pasadena, CA
+  timespan: Oct 2024
+  details:
+  - "Polymorphic Reachability Types: Tracking Freshness, Aliasing, and Separation in Higher-Order Generic Programs"
+
+- tag: work
   organization: Amazon Web Services
   location: Santa Clara, CA, United States
   position: Applied Scientist Intern, Automated Reasoning
@@ -33,7 +47,7 @@
   details:
   - Built tools for analyzing resilience properties of service models using symbolic execution;
 
-- tags: [research]
+- tag: research
   organization: Reachability Types
   location: Purdue University
   timespan: Aug 2023 - present
@@ -44,7 +58,7 @@
     soundness in Lean;
   - Built a typestate programming framework on top of Scala compiler;
 
-- tags: [work]
+- tag: work
   organization: Amazon Web Services
   location: Santa Clara, CA, United States
   position: Applied Scientist Intern, CodeWhisperer
@@ -53,7 +67,7 @@
   - Explored language models for code compilation, decompilation, and
     optimization;
 
-- tags: [research]
+- tag: research
   organization: Compiling Symbolic Execution
   location: Purdue University
   timespan: Aug 2021 - Dec 2022
@@ -61,7 +75,7 @@
   - Accelerating symbolic execution by specializing the engine over analyzed programs;
   - Contributed to the efficient use of solver resources and the memory model;
 
-- tags: [work-old]
+- tag: work-old
   organization: SenseTime Group
   location: Beijing, China (remote)
   position: Intern, Toolchain
@@ -69,7 +83,7 @@
   details:
   - Developed a sparse convolution operator for TVM and contributed it upstream;
 
-- tags: [research]
+- tag: research
   organization: Whole-Program Analysis &amp; Hardening
   location: SJTU
   timespan: Sep 2019 - Jun 2020
@@ -79,7 +93,7 @@
     resources that need protection;
   - Proposed a lightweight instrumentation scheme to reduce overhead;
 
-- tags: [work-old]
+- tag: work-old
   organization: Shanghai Jiao Tong University
   location: Shanghai, China
   position: Web Lead, Network & Information Management Organization

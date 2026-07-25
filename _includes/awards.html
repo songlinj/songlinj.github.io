@@ -1,0 +1,9 @@
+<ul>
+{% assign selected = include.tags | split: "," %}
+{% for item in site.data.awards %}
+{% if item.tag %}{% unless selected contains item.tag %}{% continue %}{% endunless %}{% endif %}
+<li class="cv-item">{{ item.award }}
+{% if item.detail %}<em class="right">{{ item.detail }}</em>{% endif %}
+</li>
+{% endfor %}
+</ul>
