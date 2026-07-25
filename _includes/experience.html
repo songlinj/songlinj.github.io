@@ -12,7 +12,6 @@
 <span><b>{{ item.organization }}</b></span>&nbsp;<span><small>{{ item.location }}</small></span>
 <span class="right"><em>{{ item.timespan }}</em></span><br>
 <span class="small">{{ item.position }}</span>
-</div>
 {% if item.details %}
 <ul>
 {% for ditem in item.details %}
@@ -20,6 +19,7 @@
 {% endfor %}
 </ul>
 {% endif %}
+</div>
 </div>
 {% endfor %}
 {% endfor %}

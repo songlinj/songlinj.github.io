@@ -4,8 +4,9 @@
   degree: Ph.D. in Computer Science
   depart: Department of Computer Science
   details:
-  - Working with <a href="https://tiarkrompf.github.io/">Prof. Tiark Rompf</a> on programming languages and compilers;
-  - "Core Courses: Algorithm Design, Analysis, and Implementation (A+), Programming Languages (A+), <!-- Operating Systems (A+), --> Distributed Systems (A+);"
+  - "Committee: Tiark Rompf (advisor), Benjamin Delaware, Suresh Jagannathan, Tianyi Zhang"
+  # - Working with <a href="https://tiarkrompf.github.io/">Prof. Tiark Rompf</a> on programming languages and compilers;
+  # - "Core Courses: Algorithm Design, Analysis, and Implementation (A+), Programming Languages (A+), <!-- Operating Systems (A+), --> Distributed Systems (A+);"
 
 
 - school: Shanghai Jiao Tong University (SJTU)
@@ -13,6 +14,6 @@
   timespan: Sep 2016 - Jun 2020
   degree: B.Eng. in Information Security
   depart: School of Electronic Information and Electrical Engineering
-  details:
-  - "Core Courses: Linear Algebra (94), Discrete Mathematics (97), Computer Organization and Architecture (95), Compiler Principles (91), Computer Communication and Network (92.5);"
-  - Experiences in web development, parallel programming, and program analysis;
+  # details:
+  # - "Core Courses: Linear Algebra (94), Discrete Mathematics (97), Computer Organization and Architecture (95), Compiler Principles (91), Computer Communication and Network (92.5);"
+  # - Experiences in web development, parallel programming, and program analysis;
