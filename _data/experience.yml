@@ -1,37 +1,31 @@
-- group: teaching
-  organization: Purdue University
-  location: West Lafayette, IN, United States
-  position: Graduate Teaching Assistant
+- tags: [service]
+  organization: Teaching Assistant
+  location: Purdue University
   timespan: Aug 2022 - present
   details:
   - CS352 & CS502, Compiling and Programming Systems (Scala);
   - CS565, Programming Languages (Coq, Dafny);
 
-- group: teaching
-  organization: Conference on Object-Oriented Programming, Systems, Languages, and Applications
-  position: "OOPSLA'25 Artifact Evaluation Committee"
-  timespan: Aug 2025
+- tags: [service]
+  organization: Artifact Evaluation Committee
+  details:
+  - "Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA): 2025, 2026;"
+  - "Symposium on Principles of Programming Languages (POPL): 2025;"
+  - "International Conference on Functional Programming (ICFP): 2024;"
 
-- group: teaching
-  organization: ACM SIGPLAN Symposium on Principles of Programming Languages
-  position: "POPL'25 Artifact Evaluation Committee"
-  timespan: Oct 2024
+- tags: [service]
+  organization: Mentoring
+  details:
+  - Craig Liu, undergraduate student (2026); <em>now Ph.D. student at UC Berkeley;</em>
 
-- group: teaching
-  organization: ACM SIGPLAN International Conference on Functional Programming
-  position: "ICFP'24 Artifact Evaluation Committee"
-  timespan: Jun 2024
-
-- group: work
-  optional: rsch
-  organization: Purdue University
-  location: West Lafayette, IN
-  position: Research Assistant
+- tags: [research]
+  organization: Large Language Models for Proofs
+  location: Purdue University
   timespan: Sep 2024 - present
   details:
   - Automating proofs for language soundness and software verification using large language models;
 
-- group: work
+- tags: [work]
   organization: Amazon Web Services
   location: Santa Clara, CA, United States
   position: Applied Scientist Intern, Automated Reasoning
@@ -39,11 +33,9 @@
   details:
   - Built tools for analyzing resilience properties of service models using symbolic execution;
 
-- group: work
-  optional: rsch
-  organization: Purdue University
-  location: West Lafayette, IN
-  position: Research Assistant
+- tags: [research]
+  organization: Reachability Types
+  location: Purdue University
   timespan: Aug 2023 - present
   details:
   - Putting <em>Reachability Types</em> into practical, functional languages
@@ -52,7 +44,7 @@
     soundness in Lean;
   - Built a typestate programming framework on top of Scala compiler;
 
-- group: work
+- tags: [work]
   organization: Amazon Web Services
   location: Santa Clara, CA, United States
   position: Applied Scientist Intern, CodeWhisperer
@@ -61,39 +53,25 @@
   - Explored language models for code compilation, decompilation, and
     optimization;
 
-- group: work
-  optional: rsch
-  organization: Purdue University
-  location: West Lafayette, IN
-  position: Research Assistant
+- tags: [research]
+  organization: Compiling Symbolic Execution
+  location: Purdue University
   timespan: Aug 2021 - Dec 2022
   details:
   - Accelerating symbolic execution by specializing the engine over analyzed programs;
   - Contributed to the efficient use of solver resources and the memory model;
 
-- group: work
-  optional: hpc
-  organization: Shanghai Jiao Tong University
-  location: Shanghai, China
-  position: Research Assistant, Center for High-Performance Computing
-  timespan: Sep 2020 - July 2021
-  details:
-  - Conducted analysis of performance variation of modern Intel and ARM processors;
-
-- group: work
-  optional: hpc
+- tags: [work-old]
   organization: SenseTime Group
   location: Beijing, China (remote)
-  position: Intern, Compilation and Toolchain
+  position: Intern, Toolchain
   timespan: Aug 2020 - July 2021
   details:
   - Developed a sparse convolution operator for TVM and contributed it upstream;
 
-- group: work
-  optional: sec
-  organization: Shanghai Jiao Tong University
-  location: Shanghai, China
-  position: Research Assistant, Group of Software Security in Progress
+- tags: [research]
+  organization: Whole-Program Analysis &amp; Hardening
+  location: SJTU
   timespan: Sep 2019 - Jun 2020
   details:
   - Developed a program hardening scheme using Intel Memory Protection Keys (MPK);
@@ -101,17 +79,7 @@
     resources that need protection;
   - Proposed a lightweight instrumentation scheme to reduce overhead;
 
-- group: work
-  optional: sec
-  organization: Shanghai Jiao Tong University
-  location: Shanghai, China
-  position: Research Intern, Group of Software Security in Progress
-  timespan: Sep 2018 - Jan 2019
-  details:
-  - Optimized cryptographic operations using Intel intrinsic instructions
-    and reorganized algorithms;
-
-- group: work
+- tags: [work-old]
   organization: Shanghai Jiao Tong University
   location: Shanghai, China
   position: Web Lead, Network & Information Management Organization

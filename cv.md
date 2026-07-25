@@ -7,7 +7,7 @@ permalink: /cv/
 <div class="intro-box">
   <div style="width: 68%;">
     {{ site.description }}<br>
-    <em>design type systems, build compilers, verify programs</em> <br>
+    <em>design type systems, build compilers, make safe &amp; fast software</em> <br>
     Email: {{ site.email }}
   </div>
   <div style="width: 30%;">
@@ -21,7 +21,18 @@ permalink: /cv/
 
 {% include publication.html cv="full" %}
 
-{% include experience.html %}
+## Research Projects
+
+{% include experience.html tag="research" %}
+
+## Work Experience
+
+{% include experience.html tag="work" %}
+{% include experience.html tag="work-old" %}
+
+## Teaching & Services
+
+{% include experience.html tag="service" %}
 
 <div style="page-break-inside: avoid;">
 <h2>Awards & Honors</h2>
@@ -43,7 +54,7 @@ permalink: /cv/
 | Performance Tuning    | C, Assembly (x64, aarch64), Intel intrinsics, OpenMP, MPI |
 | Compiler Frameworks   | Clang/LLVM, TVM, LMS, Scala                               |
 | Theorem Proving       | Rocq, Lean, Dafny, Boogie                                 |
-| Natural Languages     | English (fluent); Chinese (native)                        |
+| Natural Languages     | English (fluent), Chinese (native)                        |
 
 </div>
 

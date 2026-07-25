@@ -1,17 +1,9 @@
-{% assign sections = "work,Work & Projects|teaching,Teaching & Services" | split: "|" %}
-{% for section in sections %}
-{% assign parts = section | split: "," %}
-{% assign group = parts[0] %}
-{% assign heading = parts[1] %}
-<h2>{{ heading }}</h2>
-
 {% for item in site.data.experience %}
-{% if item.group != group %}{% continue %}{% endif %}
-<div class="cv-entry{% if item.optional %} opt opt-{{ item.optional }}{% endif %}">
+{% unless item.tags contains include.tag %}{% continue %}{% endunless %}
 <div class="cv-item">
 <span><b>{{ item.organization }}</b></span>&nbsp;<span><small>{{ item.location }}</small></span>
-<span class="right"><em>{{ item.timespan }}</em></span><br>
-<span class="small">{{ item.position }}</span>
+<span class="right"><em>{{ item.timespan }}</em></span>
+{% if item.position %}<br><span class="small">{{ item.position }}</span>{% endif %}
 {% if item.details %}
 <ul>
 {% for ditem in item.details %}
@@ -20,6 +12,4 @@
 </ul>
 {% endif %}
 </div>
-</div>
-{% endfor %}
 {% endfor %}
