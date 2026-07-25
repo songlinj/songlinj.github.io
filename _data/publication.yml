@@ -25,6 +25,7 @@
 - title: "Escape with Your Self: Sound and Expressive Bidirectional Typing with Avoidance for Reachability Types"
   author: <u>Songlin Jia</u>, Guannan Wei, Siyuan He, Yuyan Bao, Tiark Rompf
   venue: Proceedings of the ACM on Programming Languages, Volume 10, Issue PLDI
+  featured: true
   year: 2026
   links:
     - ["doi", "https://dl.acm.org/doi/10.1145/3808335"]
@@ -35,6 +36,7 @@
 - title: "Typestate via Revocable Capabilities"
   author: <u>Songlin Jia</u>, Craig Liu, Siyuan He, Haotian Deng, Yuyan Bao, Tiark Rompf
   venue: Proceedings of the ACM on Programming Languages, Volume 10, Issue PLDI
+  featured: true
   year: 2026
   links:
     - ["doi", "https://dl.acm.org/doi/10.1145/3808323"]
@@ -66,6 +68,7 @@
 - title: "Polymorphic Reachability Types: Tracking Freshness, Aliasing, and Separation in Higher-Order Generic Programs"
   author: Guannan Wei, Oliver Bračevac, <u>Songlin Jia</u>, Yuyan Bao, and Tiark Rompf
   venue: Proceedings of the ACM on Programming Languages, Volume 8, Issue POPL
+  featured: true
   year: 2024
   links:
     - ["doi", "https://doi.org/10.1145/3632856"]
@@ -73,6 +76,7 @@
 - title: "Graph IRs for Impure Higher-Order Languages: Making Aggressive Optimizations Affordable with Precise Effect Dependencies"
   author: Oliver Bračevac, Guannan Wei, <u>Songlin Jia</u>, Supun Abeysinghe, Yuxuan Jiang, Yuyan Bao, and Tiark Rompf
   venue: Proceedings of the ACM on Programming Languages, Volume 7, Issue OOPSLA2
+  featured: true
   year: 2023
   links:
     - ["doi", "https://doi.org/10.1145/3622813"]

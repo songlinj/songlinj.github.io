@@ -17,7 +17,9 @@ permalink: /cv/
 
 {% include education.html %}
 
-{% include publication.html cv=true %}
+## Publication
+
+{% include publication.html cv="full" %}
 
 {% include experience.html %}
 
@@ -36,11 +38,11 @@ permalink: /cv/
 <div markdown="1" style="page-break-inside: avoid;">
 ## Skills
 
-| Programming Languages | Pascal, C++, C#, Python, Java, Scala, TypeScript, F#      |
+| Programming Languages | Pascal, C/C++, C#, Python, Java, Scala, TypeScript, F#    |
 | Web Development       | HTML/JS/CSS, Vue.js, jQuery, Flask, Django                |
 | Performance Tuning    | C, Assembly (x64, aarch64), Intel intrinsics, OpenMP, MPI |
 | Compiler Frameworks   | Clang/LLVM, TVM, LMS, Scala                               |
-| Theorem Proving       | Rocq, Lean, Dafny                                         |
+| Theorem Proving       | Rocq, Lean, Dafny, Boogie                                 |
 | Natural Languages     | English (fluent); Chinese (native)                        |
 
 </div>

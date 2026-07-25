@@ -11,4 +11,6 @@ Songlin has been a teaching assistant for [CS502 Compiling and Programming Syste
 
 Songlin got his bachelor's degree at Shanghai Jiao Tong University, where he used to work on scientific computing and program analysis.
 
-{% include publication.html limit=6 title="Recent Publication" %}
+<h2>Recent Publication</h2>
+
+{% include publication.html limit=6 %}

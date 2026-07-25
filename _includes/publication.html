@@ -1,15 +1,15 @@
-<h2>{{ include.title | default: "Publication" }}</h2>
-
 {% assign max = include.limit | default: site.data.publication.size %}
 {% for item in site.data.publication limit: max %}
-{% unless include.cv and item.draft %}
+{% unless include.cv == "full" and item.draft %}
+{% unless include.cv == "featured" and item.featured != true %}
 <p style="page-break-inside: avoid;">
 <b>{{ item.title }}</b><br>
 <small><em>{{ item.author }}</em></small><br>
 {{ item.status | default: "in" }} {{ item.venue }}, {{ item.year }}
-{% if item.links and include.cv != true %}<br>
+{% if item.links and include.cv == nil %}<br>
 {% for link in item.links %}<a href="{{ link[1] }}">[{{ link[0] }}]</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
 {% endif %}
 </p>
+{% endunless %}
 {% endunless %}
 {% endfor %}
