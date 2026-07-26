@@ -4,7 +4,7 @@
 {% if include.tags %}{% unless selected contains item.tag %}{% continue %}{% endunless %}{% endif %}
 <div class="cv-item">
 <span><b>{{ item.organization }}</b></span>&nbsp;<span><small>{{ item.location }}</small></span>
-<span class="right"><em>{{ item.timespan }}</em></span>
+<span class="right">{{ item.timespan }}</span>
 {% if item.position %}<br><span class="small">{{ item.position }}</span>{% endif %}
 {% if item.details %}
 <ul>

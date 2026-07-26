@@ -1,19 +1,23 @@
 - award: Merit Recognition Award for Research, Purdue University
-  detail: West Lafayette, IN, 2024
+  location: West Lafayette, IN
+  year: 2024
 
-- award: First Prize, ASC19 Student Supercomputer Challenge
-  detail: Dalian, China, 2019
+- award: First Prize, ASC Student Supercomputer Challenge
+  location: Dalian, China
+  year: 2019
   tag: competition
 
-- award: Honorable Mention, Interdisciplinary Contest in Modeling
+- award: Honorable Mention, Interdisciplinary Contest in Modeling (ICM)
   tag: competition
-  detail: 2018
+  year: 2018
 
 # - award: Excellent Student Leader, Shanghai Jiao Tong University
 #   detail: Shanghai, China, 2018
 
-- award: Scholarship for Excellent Students, Shanghai Jiao Tong University
-  detail: Shanghai, China, 2017
+- award: Scholarship for Excellent Students, SJTU
+  location: Shanghai, China
+  year: 2017
 
-- award: First Prize, National Olympiad in Informatics in Provinces
-  detail: Sichuan, China, 2014
+- award: First Prize, National Olympiad in Informatics in Provinces (NOIP)
+  location: Sichuan, China
+  year: 2014

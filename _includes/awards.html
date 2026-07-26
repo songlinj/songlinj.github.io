@@ -3,7 +3,9 @@
 {% for item in site.data.awards %}
 {% if item.tag %}{% unless selected contains item.tag %}{% continue %}{% endunless %}{% endif %}
 <li class="cv-item">{{ item.award }}
-{% if item.detail %}<em class="right">{{ item.detail }}</em>{% endif %}
+<span class="right">
+<small>{% if item.location %}{{ item.location }}; {% endif %}
+{{ item.year }}</small></span>
 </li>
 {% endfor %}
 </ul>

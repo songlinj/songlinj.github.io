@@ -25,19 +25,21 @@
   - Automating proofs for language soundness and software verification using large language models;
 
 - tag: talk
-  organization: PLDI'26
-  location: Boulder, CO
-  timespan: Jun 2026
+  organization: Typestate via Revocable Capabilities
   details:
-  - "Escape with Your Self: Sound and Expressive Bidirectional Typing with Avoidance for Reachability Types"
-  - Typestate via Revocable Capabilities
+  - Conference on Programming Language Design and Implementation (PLDI) | Boulder, CO; Jun 2026
 
 - tag: talk
-  organization: OOPSLA'24
-  location: Pasadena, CA
-  timespan: Oct 2024
+  organization: Escape with Your Self
+  # location: Sound and Expressive Bidirectional Typing with Avoidance for Reachability Types
   details:
-  - "Polymorphic Reachability Types: Tracking Freshness, Aliasing, and Separation in Higher-Order Generic Programs"
+  - Conference on Programming Language Design and Implementation (PLDI) | Boulder, CO; Jun 2026
+
+- tag: talk
+  organization: Polymorphic Reachability Types
+  # location: Tracking Freshness, Aliasing, and Separation in Higher-Order Generic Programs
+  details:
+  - Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA) | Pasadena, CA; Oct 2024
 
 - tag: work
   organization: Amazon Web Services

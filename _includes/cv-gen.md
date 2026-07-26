@@ -23,11 +23,11 @@
 {% include publication.html cv="full" %}
 {% endif %}
 
-{% unless mode == "travel" %}
+{% if mode == "industry" %}
 ## Research Projects
 
 {% include experience.html tags="research" %}
-{% endunless %}
+{% endif %}
 
 ## Work Experience
 
@@ -58,12 +58,15 @@
 {% unless mode == "travel" %}
 ## Skills
 
+<div markdown="1" style="break-inside: avoid;">
 | Programming Languages | Pascal, C/C++, C#, Python, Java, Scala, TypeScript, F#    |
 | Web Development       | HTML/JS/CSS, Vue.js, jQuery, Flask, Django                |
-| Performance Tuning    | C, Assembly (x64, aarch64), Intel intrinsics, OpenMP, MPI |
-| Compiler Frameworks   | Clang/LLVM, TVM, LMS, Scala                               |
+| Performance Tuning    | C, Assembly (x86, aarch64), OpenMP, MPI                   |
+| Compiler Frameworks   | Clang/LLVM, TVM, (Mini)Scala                              |
 | Theorem Proving       | Rocq, Lean, Dafny, Boogie                                 |
 | Natural Languages     | English (fluent), Chinese (native)                        |
+
+</div>
 {% endunless %}
 
 {% if mode == "travel" %}

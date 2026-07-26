@@ -4,8 +4,8 @@
 {% unless include.cv == "featured" and item.featured != true %}
 <p style="page-break-inside: avoid;">
 <b>{{ item.title }}</b><br>
-<small><em>{{ item.author }}</em></small><br>
-{{ item.status | default: "in" }} {{ item.venue }}, {{ item.year }}
+<small>{{ item.author }}</small><br>
+{{ item.venue }}, {{ item.year }}
 {% if item.links and include.cv == nil %}<br>
 {% for link in item.links %}<a href="{{ link[1] }}">[{{ link[0] }}]</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
 {% endif %}

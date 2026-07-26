@@ -3,7 +3,7 @@
 {% for item in site.data.education %}
 <div class="cv-item">
 <span><b>{{ item.school }}</b></span>&nbsp;<span><small>{{ item.location }}</small></span>
-<span class="right"><em>{{ item.timespan }}</em></span><br>
+<span class="right">{{ item.timespan }}</span><br>
 <span class="small">{{ item.depart }}</span><span class="right small">{{ item.degree }}</span>
 <ul>
 {% for ditem in item.details %}

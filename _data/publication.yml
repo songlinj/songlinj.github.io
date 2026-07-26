@@ -1,6 +1,6 @@
 - title: "Let Functions Speak: Lightweight Parametric Polymorphism via Domain and Range Types"
   author: Siyuan He, <u>Songlin Jia</u>, Tiark Rompf
-  venue: submission
+  venue: in submission
   year: 2026
   draft: true
   links:
@@ -8,7 +8,7 @@
 
 - title: "Free to Move: Reachability Types with Flow-Sensitive Effects for Safe Deallocation and Ownership Transfer"
   author: Haotian Deng, Siyuan He, <u>Songlin Jia</u>, Yuyan Bao, Tiark Rompf
-  venue: submission
+  venue: in submission
   year: 2026
   draft: true
   links:
@@ -16,8 +16,7 @@
 
 - title: "Adaptive Proof Refinement with LLM-Guided Strategy Selection"
   author: Minghai Lu, Zhe Zhou, Danning Xie, <u>Songlin Jia</u>, Benjamin Delaware, Tianyi Zhang
-  status: to be appeared in
-  venue: ASE
+  venue: to be appeared in ASE
   year: 2026
   links:
     - ["arxiv", "https://arxiv.org/abs/2510.25103"]
