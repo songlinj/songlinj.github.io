@@ -67,7 +67,6 @@
 - title: "Polymorphic Reachability Types: Tracking Freshness, Aliasing, and Separation in Higher-Order Generic Programs"
   author: Guannan Wei, Oliver Bračevac, <u>Songlin Jia</u>, Yuyan Bao, and Tiark Rompf
   venue: Proceedings of the ACM on Programming Languages, Volume 8, Issue POPL
-  featured: true
   year: 2024
   links:
     - ["doi", "https://doi.org/10.1145/3632856"]
@@ -90,6 +89,7 @@
 - title: Annotating, Tracking, and Protecting Cryptographic Secrets with CryptoMPK
   author: Xuancheng Jin, Xuangan Xiao, <u>Songlin Jia</u>, Wang Gao, Dawu Gu, Hang Zhang, Siqi Ma, Zhiyun Qian, and Juanru Li
   venue: IEEE Symposium on Security and Privacy (SP)
+  featured: true
   year: 2022
   links:
     - ["doi", "https://doi.org/10.1109/sp46214.2022.9833650"]

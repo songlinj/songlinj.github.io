@@ -15,14 +15,14 @@
 - tag: service
   organization: Mentoring
   details:
-  - Craig Liu, Purdue undergraduate (2026); <em>now Ph.D. student at UC Berkeley;</em>
+  - Craig Liu, <em>Typestate via Revocable Capabilities</em> (PLDI'26); now Ph.D. student at UC Berkeley | 2025-2026
 
 - tag: research
   organization: Large Language Models for Proofs
   location: Purdue University
   timespan: Sep 2024 - present
   details:
-  - Automating proofs for language soundness and software verification using large language models;
+  - Automating proofs for interactive theorem provers (Rocq, ASE'26)
 
 - tag: talk
   organization: Typestate via Revocable Capabilities
@@ -47,7 +47,7 @@
   position: Applied Scientist Intern, Automated Reasoning
   timespan: Apr - Aug 2024
   details:
-  - Built tools for analyzing resilience properties of service models using symbolic execution;
+  - Delivered tools to solution architects to help identify resilience issues of cloud services at design time;
 
 - tag: research
   organization: Reachability Types
@@ -83,7 +83,7 @@
   position: Intern, Toolchain
   timespan: Aug 2020 - July 2021
   details:
-  - Developed a sparse convolution operator for TVM and contributed it upstream;
+  - Developed a sparse convolution operator for TVM and merged it into upstream;
 
 - tag: research
   organization: Whole-Program Analysis &amp; Hardening
@@ -101,5 +101,4 @@
   position: Web Lead, Network & Information Management Organization
   timespan: Sep 2017 - Jun 2018
   details:
-  - Rebuilt the service system and optimized its interaction guidance, information layout, and data fetching;
-  - Leading the 4-per dev team, implemented the backend (Django) and contributed to the front-end (Vue.js);
+  - Led the 4-per dev team to modernize the information system, contributing to both the backend and the front-end;

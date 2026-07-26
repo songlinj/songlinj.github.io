@@ -38,7 +38,7 @@
 {% endif %}
 
 {% if mode == "academic" %}
-## Teaching & Services
+## Teaching, Services, and Mentoring
 
 {% include experience.html tags="service" %}
 
