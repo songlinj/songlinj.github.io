@@ -78,7 +78,7 @@
   position: Intern, Toolchain
   timespan: Aug 2020 - July 2021
   details:
-  - Developed sparse convolution for TVM, making ResNet inference >40% faster under negligible accuracy loss;
+  - Developed sparse convolution for TVM, making ResNet inference >30% faster under negligible accuracy loss;
 
 - tag: research
   organization: Protecting Secrets in Programs
