@@ -18,11 +18,18 @@
   - Craig Liu, <em>Typestate via Revocable Capabilities</em> (PLDI'26); now Ph.D. student at UC Berkeley | 2025-2026
 
 - tag: research
-  organization: Large Language Models for Proofs
-  location: Purdue University
-  timespan: Sep 2024 - present
+  organization: Reachability Types
+  timespan: OOPSLA'23, POPL'24, OOPSLA'25, PLDI'26, OOPSLA'26
   details:
-  - Automating proofs for interactive theorem provers (Rocq, ASE'26)
+  - Building impure, functional languages with Rust-style resource-and-effect reasoning via nominal tracking;
+  - Practical leverages shown in graph-based compiler IR, user-facing languages, and typestate programming;
+
+- tag: research
+  organization: Large Language Models for Proofs
+  timespan: ASE'26
+  details:
+  - Designing pipelines for automating repository-level proofs in Rocq and Dafny;
+  - Building benchmarks and evaluation metrics for partial proofs;
 
 - tag: talk
   organization: Typestate via Revocable Capabilities
@@ -49,33 +56,21 @@
   details:
   - Delivered tools to solution architects to help identify resilience issues of cloud services at design time;
 
-- tag: research
-  organization: Reachability Types
-  location: Purdue University
-  timespan: Aug 2023 - present
-  details:
-  - Putting <em>Reachability Types</em> into practical, functional languages
-    with resource-and-effect reasoning;
-  - Designed typing algorithms supporting escaping data types, with mechanized
-    soundness in Lean;
-  - Built a typestate programming framework on top of Scala compiler;
-
 - tag: work
   organization: Amazon Web Services
   location: Santa Clara, CA, United States
   position: Applied Scientist Intern, CodeWhisperer
   timespan: May - Aug 2023
   details:
-  - Explored language models for code compilation, decompilation, and
+  - Fine-tuned language models for code compilation, decompilation, and
     optimization;
 
 - tag: research
   organization: Compiling Symbolic Execution
-  location: Purdue University
-  timespan: Aug 2021 - Dec 2022
+  timespan: ICSE'23
   details:
-  - Accelerating symbolic execution by specializing the engine over analyzed programs;
-  - Contributed to the efficient use of solver resources and the memory model;
+  - Speeding up symbolic execution (4.6-9.4× over KLEE) by specializing the engine over analyzed programs;
+  - Optimized the engine for efficient resource use, flexible C-like memory model, and parallelism;
 
 - tag: work-old
   organization: SenseTime Group
@@ -83,19 +78,16 @@
   position: Intern, Toolchain
   timespan: Aug 2020 - July 2021
   details:
-  - Developed a sparse convolution operator for TVM and merged it into upstream;
+  - Developed sparse convolution for TVM, making ResNet inference >40% faster under negligible accuracy loss;
 
 - tag: research
-  organization: Whole-Program Analysis &amp; Hardening
-  location: SJTU
-  timespan: Sep 2019 - Jun 2020
+  organization: Protecting Secrets in Programs
+  timespan: SP'22
   details:
-  - Developed a program hardening scheme using Intel Memory Protection Keys (MPK);
-  - Devised an efficient whole-program dataflow analysis to identify
-    resources that need protection;
-  - Proposed a lightweight instrumentation scheme to reduce overhead;
+  - Developed a pipeline that precisely identities sensitive dataflow and isolates them using Intel MPK;
+  - Being lightweight, the analysis finishes within minutes, and the hardening induces <10% overhead;
 
-- tag: work-old
+- tag: work-too-old
   organization: Shanghai Jiao Tong University
   location: Shanghai, China
   position: Web Lead, Network & Information Management Organization
