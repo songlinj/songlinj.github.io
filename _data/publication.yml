@@ -8,7 +8,7 @@
 
 - title: "Let Functions Speak: Lightweight Parametric Polymorphism via Domain and Range Types"
   author: Siyuan He, <u>Songlin Jia</u>, Tiark Rompf
-  venue: to appear in POPL'27
+  venue: to appear in Proceedings of POPL
   year: 2027
   links:
     - ["arxiv", "https://arxiv.org/abs/2603.23360"]
